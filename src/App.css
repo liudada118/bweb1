@@ -1,0 +1,80 @@
+@import '~antd/dist/antd.css';
+.nav{
+  display: flex;
+  justify-content : 'center';
+  align-items : center;
+
+}
+.navItems{
+  float: right;
+  vertical-align : 'center'
+}
+.iconfont{
+  font-family: 'iconfont';
+}
+a{
+  color: inherit!important
+}
+
+
+
+@font-face {
+  font-family: "font";
+  src: url('./assets/font/PingFang\ Light.ttf');
+  
+}
+.font {
+  font-family: "font";
+}
+
+@font-face {
+  font-family: "fontbold";
+  src: url('./assets/font/PingFang\ SC\ Semibold.ttf');
+  
+}
+.fontb {
+  font-family: "fontbold";
+}
+
+@font-face {
+  font-family: "fontsc";
+  src: url('./assets/font/PingFang\ SC.ttf');
+  
+}
+.fontsc {
+  font-family: "fontsc";
+}
+
+@font-face {
+  font-family: "fontme";
+  src: url('./assets/font/PingFang\ Medium.ttf');
+  
+}
+.fontme {
+  font-family: "fontme";
+}
+
+@font-face {
+  font-family: "fontre";
+  src: url('./assets/font/PingFang\ Regular.woff.ttf');
+  
+}
+.fontre {
+  font-family: "fontre";
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "icon";
+  src: url('./assets/font/ITCAvantGardePro-Bold.otf');
+  
+}
+.iconText {
+  font-family: "icon";
+}
+

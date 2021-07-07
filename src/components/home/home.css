@@ -1,0 +1,44 @@
+.homeContent{
+    background-color: #f15929;
+    width: 100vw;
+    height: 100vh;  
+    color : #fff;
+    position: relative
+}
+.contentText{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+
+}
+.contentText img{
+    width: 54%;
+}
+.bo{
+    font-weight: bold;
+    font-size: 48px;
+}
+.boInfo{
+    font-weight: normal;
+}
+.bochi{
+    font-size: 68px; 
+    font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+    .bo{
+        font-weight: bold;
+        font-size: 28px;
+    }
+    .boInfo{
+        font-weight: normal;
+    }
+    .bochi{
+        font-size: 34px; 
+        font-weight: bold;
+    }
+    .contentText img{
+        width: 90%;
+    }
+  }

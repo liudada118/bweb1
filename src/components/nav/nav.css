@@ -1,0 +1,37 @@
+.title{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content :space-between;
+    background-color: #fff;
+    z-index: 10;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+.icon{
+    font-size: 24px;
+    color: #f15929;
+    font-weight: bold;
+}
+.titleItem ul{
+    border: 0px;
+}
+.titleItem{
+    font-size: 28px;
+}
+.ant-menu{
+    font-size: 18px!important;
+}
+.phoneNav{
+    position: absolute;
+    top: 47px;
+    left: 0;
+    width: 100vw;
+    background-color: rgba(233,233,233,0.9) !important;
+}
+.ant-menu-sub.ant-menu-inline{
+    background-color: rgba(233,233,233,0.9) !important;
+}
