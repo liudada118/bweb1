@@ -60,7 +60,7 @@ const Sider = () => {
             </Menu.Item>
 
             <SubMenu key="product" title="产品">
-                <Menu.Item key="setting:1"><Link to='/product'>弹性电极纤维</Link></Menu.Item>
+                <Menu.Item key="setting:1"><Link to='/product'>弹性电极纤维传感器</Link></Menu.Item>
                 <Menu.Item key="setting:2"><Link to='/product1'>纤维压力传感器矩阵</Link></Menu.Item>
             </SubMenu>
             <SubMenu key="solution" title="解决方案">

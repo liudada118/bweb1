@@ -21,6 +21,7 @@
     padding : 0 80px;
 }
 .company{
+    margin-top: 70px;
     font-size: 28px;
     margin-bottom: 80px;
 }
@@ -66,6 +67,9 @@
     .contentItems{
         display: flex;
         flex-wrap: wrap;
+    }
+    .company{
+        font-size: 24px;
     }
     .contentItemImg{
         display: flex;

@@ -12,17 +12,17 @@ export default function Bed() {
                 <img src={clothes} className='img' alt="" />
                 <div className="beditems">
                     <ul className='beditems1'>
-                        <li>睡眠周期</li>
-                        <li>呼吸监测</li>
-                        <li>离床提醒</li>
-                        <li>睡姿监测</li>
+                        <li>60秒心电监测</li>
+                        <li>零触感</li>
+                        <li>实时心率</li>
+                        <li>卡路里</li>
                     </ul>
 
                     <ul className='beditems2'>
-                        <li>就寝时长</li>
-                        <li>睡眠效率</li>
-                        <li>打鼾监测</li>
-                        <li>睡眠监测</li>
+                        <li>实时心电图</li>
+                        <li>可洗涤</li>
+                        <li>运动区间监测</li>
+                        <li>精准算法</li>
                     </ul>
                 </div>
             </div>

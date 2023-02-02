@@ -17,10 +17,9 @@ export default function Our() {
                             <i className='iconfont'>&#xe60c;</i>
                             <p>地址</p>
                         </div>
-                        <p>
-                            北京：北京市朝阳区八里庄
-                            住邦2000-2栋-1205</p>
-                        <p>
+                        <p className="font3">
+                            北京：北京市朝阳区工体北路4号院22office 4楼中户406室</p>
+                        <p className="font3">
                             深圳：深圳市南山区前海深港
                             青年梦工场7-118</p>                            </div>
                     <div className='contentItem'>

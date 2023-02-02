@@ -73,19 +73,29 @@ class App extends React.Component {
         const { current } = this.state;
         return (
             <>
-                <Aside />
+                {/* <Aside /> */}
                 <div className='title fontb'>
                     <div className='icon iconText'> <Link to='/home'>bodyta  </Link></div>
                     {this.state.phone ? <PhoneNav /> : <div className='titleItem'>
                         <Menu onClick={this.handleClick} selectedKeys={[current]} mode="horizontal">
 
 
+                            {/* <Menu.Item key="our" >
+                                <Link to='/our'>
+                                    关于我们
+                                </Link>
+                            </Menu.Item>
+
+                            <Menu.Item key="home" >
+                                <Link to='/home'>
+                                    首页
+                                </Link>
+                            </Menu.Item> */}
                             <Menu.Item key="home" >
                                 <Link to='/home'>
                                     首页
                                 </Link>
                             </Menu.Item>
-
                             <SubMenu key="product" title="产品">
                                 <Menu.Item key="setting:1"><Link to='/product'>弹性电极纤维</Link></Menu.Item>
                                 <Menu.Item key="setting:2"><Link to='/product1'>纤维压力传感器矩阵</Link></Menu.Item>
@@ -101,12 +111,13 @@ class App extends React.Component {
                             {/* <Menu.Item key="our" >
                             <Link  to='/our'>联系我们</Link>
                             </Menu.Item> */}
-                            <SubMenu key="our" title="关于我们">
+                              <SubMenu key="our" title="关于我们">
                                 <Menu.Item key="setting:6"><Link to='/our'> 联系方式</Link></Menu.Item>
                                 <Menu.Item key="setting:7"><Link to='/about'>关于bodyta</Link></Menu.Item>
                             </SubMenu>
                         </Menu>
                     </div>}
+                   {!this.state.phone ?<Link  to='/our'><div>联系我们</div></Link> : null}
                 </div>
             </>
 

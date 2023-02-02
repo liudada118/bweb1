@@ -11,3 +11,15 @@
     font-size: 18px;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 900px) {
+    .clothesContent{
+        font-size: 20px;
+    }
+    .chairContent{
+        font-size: 20px;
+    }
+    .bedContent{
+        font-size: 20px; 
+    }
+  }

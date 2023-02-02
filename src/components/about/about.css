@@ -19,10 +19,14 @@
     justify-content: center;
     align-items: center;
 }
+.aboutImg{
+    margin-right: 80px;  
+    height: 100%;  
+}
 .aboutContent img {
     height: 100%;
     /* float: left; */
-    padding-right: 80px;
+    
 }
 .aboutContent p {
     font-size: 23px;
@@ -49,16 +53,22 @@
         /* width: 100%; */
 
     }
+    .aboutImg{
+        margin-bottom: 80px;
+        margin-right: 0px;    
+    }
     .aboutContent img {
         width: 100%;
         /* float: left; */
-        padding-right: 80px;
+        height: unset;
+        
+        
     }
     .aboutContent{
         flex-direction: column;
     }
     .aboutContent p {
-        font-size: 24px;
+        font-size: 14px;
         text-align: justify;
         padding-left: 0;
         width: 100%;

@@ -37,6 +37,15 @@ a{
 }
 
 @font-face {
+  font-family: "font3";
+  src: url('./assets/font/PingFang\ SC3.ttf');
+  
+}
+.font3 {
+  font-family: "font3";
+}
+
+@font-face {
   font-family: "fontsc";
   src: url('./assets/font/PingFang\ SC.ttf');
   

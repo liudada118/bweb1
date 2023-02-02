@@ -35,3 +35,7 @@
 .ant-menu-sub.ant-menu-inline{
     background-color: rgba(233,233,233,0.9) !important;
 }
+
+.title .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover{
+    color: #f15929;
+}

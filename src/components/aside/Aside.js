@@ -13,7 +13,7 @@ export default function Aside() {
             </div>
             <div>
                 {
-                    value == 1 ?<div className="asideContent fontb"><div><p>北京：010-655758821</p><p>深圳：0755-26926698</p></div></div>  : value == 2 ?<div className="asideContent"><img src={wx} alt="" /></div >  : value == 3 ? <div className="asideContent fontb"><div> info@bodyta.com</div></div> : null
+                    value == 1 ?<div className="asideContent fontb"><div><p>北京：010-65575821</p><p>深圳：0755-26926698</p></div></div>  : value == 2 ?<div className="asideContent"><img src={wx} alt="" /></div >  : value == 3 ? <div className="asideContent fontb"><div> info@bodyta.com</div></div> : null
                 }
             </div>
         </>

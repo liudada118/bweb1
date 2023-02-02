@@ -12,17 +12,17 @@ export default function Bed() {
                 <img src={chairimg} className='img' alt="" />
                 <div className="beditems">
                     <ul className='beditems1'>
-                        <li>睡眠周期</li>
-                        <li>呼吸监测</li>
-                        <li>离床提醒</li>
-                        <li>睡姿监测</li>
+                        <li>实时坐姿</li>
+                        <li>近视监测</li>
+                        <li>驼背提醒</li>
+                        <li>侧弯监测</li>
                     </ul>
 
                     <ul className='beditems2'>
-                        <li>就寝时长</li>
-                        <li>睡眠效率</li>
-                        <li>打鼾监测</li>
-                        <li>睡眠监测</li>
+                        <li>智能升降</li>
+                        <li>坐姿识别</li>
+                        <li>坐姿提醒</li>
+                        <li>久坐提醒</li>
                     </ul>
                 </div>
             </div>
